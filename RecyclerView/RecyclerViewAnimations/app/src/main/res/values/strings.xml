@@ -16,3 +16,9 @@
 <resources>
     <string name="app_name">RecyclerViewAnimations</string>
 </resources>
+
+
+
+<resources>
+    <string name="height">"wrap_content"</string>
+</resources>
