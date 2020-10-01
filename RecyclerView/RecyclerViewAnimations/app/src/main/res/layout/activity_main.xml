@@ -34,25 +34,25 @@
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@values/height"
         android:gravity="center"
         android:id="@+id/radioGroup"
         android:orientation="horizontal">
 
         <RadioButton android:id="@+id/deleteRB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@values/height"
             android:checked="true"
             android:text="Delete"/>
 
         <RadioButton android:id="@+id/addRB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@values/height"
             android:text="Add"/>
 
         <RadioButton android:id="@+id/changeRB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@values/height"
             android:text="Change"/>
 
     </RadioGroup>
@@ -63,14 +63,14 @@
 
         <CheckBox
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@values/height"
             android:id="@+id/predictiveCB"
             android:text="Predictive Animations"
             android:checked="false"/>
 
         <CheckBox
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@values/height"
             android:id="@+id/customCB"
             android:text="Custom Animator"
             android:checked="false"/>
